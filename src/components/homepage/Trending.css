@@ -1,0 +1,57 @@
+.trend-container {
+    margin-top:3rem;
+    
+    
+}
+.trend-con{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 5rem;
+    width:90%;
+    margin:0 auto;
+}
+
+.trending-data {
+    margin:0 auto;
+ 
+}
+
+.trend-img{
+    height:450px;
+    width:350px;
+    object-fit:fill;
+    border-radius:10px;
+}
+.title {
+    margin-left:2rem;
+
+}
+.it-tittle {
+    text-align: center;
+    margin-top:0;
+    padding-top:.2rem;
+}
+
+.vwall {
+    display:flex;
+    justify-content: space-between;
+}
+.vbtn {
+    padding:1rem 2.5rem;
+    align-self: center;
+    margin-right:4rem;
+    
+
+    font-size:1rem;
+    border-radius:10px;
+    border:none;
+    font-weight:bold;
+    background-color:black;
+    color:white;
+}
+.vbtn:hover{
+    background-color:rgb(218, 210, 214) ;
+    transition: all .3s linear;
+    color:black;
+}

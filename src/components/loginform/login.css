@@ -1,0 +1,110 @@
+.login {
+    border:2px solid white;
+}
+
+.login-container{
+    width:350px;
+    
+    margin:0 auto;
+    border:1px solid rgb(141, 132, 132);
+    border-radius:10px;
+    text-align: center;
+    padding: 1.5rem;
+}
+.login-title {
+    font-size: 1.5rem;
+}
+.login-text {
+    width:300px;
+    margin:0 auto;
+    margin-bottom:1.2rem;
+    color:rgb(104, 96, 96);
+}
+
+.login-input {
+    display:block;
+    width:300px;
+    padding:.8rem;
+    margin:.4rem auto;
+    border-radius:5px;
+    padding-left:1.3rem;
+    border:1px solid rgb(141, 132, 132);
+    background:white;
+    
+}
+
+.login-password {
+    position:relative;
+}
+.login-input-pass{
+     
+}
+
+.login-password-btn {
+    position:absolute;
+    top:.7rem;
+    right:1.2rem;
+    border:none;
+    background-color: white;
+    width:30px;
+}
+
+.login-forget {
+    display:flex;
+    justify-content:space-between;
+    
+    margin-bottom:.5rem;
+}
+.login-forget-1 {
+     
+}
+
+.login-forget-2 {
+    color:rgb(104, 96, 96);
+}
+
+.login-logosingle {
+    margin:1rem .8rem .2rem .8rem ;
+ 
+}
+
+.login-bottom{
+    border:1px solid red;
+}
+.login-otp{
+  
+}
+.login-button{
+    width:180px;
+    height:40px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 7px;
+    border:none;
+    margin-top:0rem;
+}
+.login-button:hover{
+    background: blue;
+}
+
+.lsignup {
+    display:flex;
+    justify-content:space-around;
+    width:180px;
+    font-size:.75rem;
+    
+    margin:.2rem auto 1rem auto;
+    
+    
+    
+}
+.lsignup-1{
+    color:rgb(61, 55, 55);;
+    margin:0;
+}
+.lsignup-2{
+   
+    margin:0;
+    margin-left:2rem;
+}

@@ -1,0 +1,55 @@
+.wish-section {
+    display:grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+    margin-top:2rem;
+}
+
+.wish-card {
+    margin-left:2rem;
+    padding-bottom:1rem;
+    
+    background:rgb(241, 230, 230);
+    border-radius:10px;
+}
+.top-wish {
+    display:flex;
+    justify-content: space-between;
+    padding:0 2rem;
+}
+
+.fake{
+    margin-right:10rem;
+    margin-top:1.5rem;
+    width:180px;
+    height:50px;
+}
+
+.img-single {
+    width:100%;
+    height:250px;
+    
+    
+}
+
+.vbtw {
+    padding:.6rem 1.5rem;
+    align-self: center;
+    margin-left:.8rem;
+    
+    
+    font-size:.7rem;
+    border-radius:10px;
+    border:none;
+    font-weight:bold;
+    background-color:black;
+    color:white;
+    border:1px solid black;
+}
+.vbtw:hover{
+    background-color:rgb(218, 210, 214) ;
+    transition: all .3s linear;
+    color:black;
+    
+}
