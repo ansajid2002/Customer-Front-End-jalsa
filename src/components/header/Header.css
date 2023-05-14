@@ -1,0 +1,155 @@
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+ 
+    margin-bottom:2rem;
+}
+.header-top {
+    
+    background-color: rgb(11, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.header-top-icons {
+    display: flex;
+
+    width: 100px;
+    margin-left: 2.5rem;
+    margin-top: 0.3rem;
+}
+.header-link{
+    text-decoration: none;
+    color:inherit;
+}
+.ic{
+    margin:.3rem 1.3rem;
+    font-size:1.4rem;
+    
+   background-color: white;
+    padding:.3rem;
+    border-radius:50%;
+}
+
+.header-top-content {
+    margin-top: 3px;
+    padding-top: .3rem;
+    padding-left: 40rem;
+    font-size: 23px;
+    height: 20px;
+    color:rgb(254, 249, 249);
+}
+
+.header-top-flag-container {
+
+    width: 120px;
+    height: 20px;
+}
+
+.header-top-flag {
+    height: 32px;
+    border-radius: 12px;
+    margin-top:.5rem;
+}
+
+
+
+
+
+.header-middle {
+   
+    display: flex;
+    justify-content: space-between;
+    
+    margin:.5rem;
+    margin-top:.8rem;
+}
+.header-middle-logo {
+    width:300px;
+    
+    margin-left:2rem;
+}
+
+.hm-input-search {
+    position:relative;  
+    margin-top:.4rem;  
+}
+.hm-input {
+    width:300px;
+    height:45px;
+    border:none;
+    border-radius:10px;
+    background:whitesmoke;
+    margin-top:.5rem;
+    font-size:1.5rem;
+}
+.hm-search {
+    position:absolute;
+    right:.5rem;
+    top:.75rem;
+    font-size: 2.2rem;
+}
+.header-middle-2 {
+    display:flex;
+   
+    margin-right:3rem;
+    
+}
+
+
+
+
+.header-middle-icons {
+    display:flex;
+    margin-top:1.3rem ;
+    
+    font-size:2rem;
+    
+}
+.header-middle-icons > li {
+    margin-right:15px;
+    padding:2px;
+   
+    height:20px;
+}
+
+
+.li-btn:hover {
+    background:black;
+    color:white;
+}
+.header-title {
+    margin-top:0;
+    font-size:2rem;
+    width:270px;
+    height:45px;
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight:bold;
+   
+    font-size:1.7rem;
+    margin-top:.2rem;
+    margin:.3rem 2rem;
+    padding-left:0;
+    
+    
+}
+.header-bottom>li {
+
+    
+    border-radius:20px;
+    padding:.3rem;
+}
+.header-bottom >li:hover{
+    color:blue;
+   
+}

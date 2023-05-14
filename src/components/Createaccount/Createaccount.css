@@ -1,0 +1,52 @@
+.createacc-container {
+    width:350px;
+    
+    margin:0 auto;
+    border:1px solid rgb(141, 132, 132);
+    border-radius:10px;
+    text-align: center;
+    padding: .3rem 1.5rem;
+}
+
+.createacc-title {
+    font-size: 1.5rem;
+    padding:0rem 1rem ;
+}
+.createacc-text {
+    width:300px;
+    margin:0 auto;
+    margin-bottom:1.2rem;
+    color:rgb(104, 96, 96);
+    
+}
+.createacc-input {
+    display:block;
+    width:300px;
+    padding:.8rem;
+    margin:1rem auto;
+    border-radius:5px;
+    padding-left:1.3rem;
+    border:1px solid rgb(141, 132, 132);
+}
+
+.createacc-agree {
+    font-size:.75rem;
+    margin:1.5rem auto;
+}
+.createacc-button{
+    width:180px;
+    height:40px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 7px;
+    border:none;
+    margin-top:0rem;
+}
+.createacc-button:hover{
+    background: blue;
+}
+.createacc-already {
+    margin-top:.2rem;
+    font-size:.8rem;
+}

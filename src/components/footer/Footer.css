@@ -1,0 +1,88 @@
+.footer {
+    
+    display:grid;
+    grid-template-columns: 30% 12% 12% 27%;
+    grid-column-gap: 3.7rem;
+    margin-top:3rem;
+    padding:3rem 2rem;
+    background:black;
+    color:white;
+
+}
+/* .footer > div {
+    border:2px solid red;
+} */
+
+.f1-fslogo {
+    width:250px;
+}
+.f1-para{
+    font-size:1.3rem;
+    word-spacing: .3rem;
+    padding-left:.8rem;
+    
+}
+.f1-icons {
+    display:flex;
+   
+    padding-left: 0;
+
+}
+.f1-ic {
+    margin:.3rem 1rem;
+    font-size:1.4rem;
+    color:black;
+   background-color: white;
+    padding:.3rem;
+    border-radius:50%;
+  
+}
+.footer-heading {
+    text-align:center;
+    font-size :1.7rem;
+    
+}
+.footer-list {
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    
+}
+
+.email-section {
+    display:flex; 
+    position:relative;
+    margin-bottom:1rem;
+}
+
+.e-email {
+    position: absolute;
+    left:.3rem;
+    top:.3rem;
+}   
+.e-input {
+    padding:.8rem 1.8rem;
+    border:none;
+    border-bottom:1.5px solid white;
+    padding-bottom:1.2rem;
+    background:black;
+    color:white;
+    padding-left:4rem;
+    font-size:1rem;
+}
+.e-button {
+    padding:.6rem 1.5rem;
+    color:white;
+    background:blue;
+    font-size: 1.2rem;
+    font-weight:bold;
+    border-radius:15px;
+    margin-left:1rem;
+    border:none;
+
+}
+.e-button:hover {
+    color:rgb(139, 139, 201);
+}
+.footer-pstore {
+    margin-right:1.4rem;
+}

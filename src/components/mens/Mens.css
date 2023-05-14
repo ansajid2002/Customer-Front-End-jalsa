@@ -1,0 +1,19 @@
+.mens-main {
+    display:flex;
+    justify-content: space-between;
+    margin-top:3rem;
+}
+.aside{
+    
+    width:18%;
+    text-align: left;
+    padding-left:3rem;
+   
+    
+}
+
+.main-section {
+   
+    width:75%;
+    text-align:center;
+}
